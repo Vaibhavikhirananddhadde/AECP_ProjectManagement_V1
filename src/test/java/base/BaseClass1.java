@@ -10,10 +10,11 @@ import org.testng.annotations.BeforeMethod;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
+import pages.LoginPage;
 import utilities.SetupExtentReport;
 import utilities.UtilClass;
 
-public class BaseClass extends UtilClass{
+public class BaseClass1 extends UtilClass{
 	public static ExtentTest test;
 	public static ExtentReports extent;
 	
@@ -38,7 +39,9 @@ public class BaseClass extends UtilClass{
 		logger.info("launching browser");
 		getApplication(readProperty("url", "/src/test/resources/configfiles/config.properties"));
 		logger.info("Entering url in the browser");
-	}
+		LoginPage login = new LoginPage();
+		login.successfulLogin();
+		}
 	
 
 	

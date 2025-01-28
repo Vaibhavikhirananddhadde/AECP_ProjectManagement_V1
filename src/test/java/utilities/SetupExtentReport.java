@@ -7,19 +7,14 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
-import base.BaseClass;
-
-public class SetupExtentReport extends BaseClass{
+public class SetupExtentReport{
 	
 	public static ExtentReports setupExtentReport() {
-		SimpleDateFormat format = new SimpleDateFormat("dd-mm-yyyy hh-mm-ss");
-		//get current date
 		
-		String Actualdate = format.format(new Date());
-		
-		String reportPath = System.getProperty("user.dir")+"/Reports/ExtentReport_"+Actualdate+".html";
-		
-		extent = new ExtentReports();
+		String timestamp = new SimpleDateFormat("dd-MM-yyyy_HH-mm-ss").format(new Date());
+        String reportPath = System.getProperty("user.dir") + "/Reports/ExtentReport_" + timestamp + ".html";
+				
+		ExtentReports extent = new ExtentReports();
 		ExtentSparkReporter sparkReport = new ExtentSparkReporter(reportPath);
 		
 		extent.attachReporter(sparkReport);

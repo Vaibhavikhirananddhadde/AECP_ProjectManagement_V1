@@ -9,8 +9,10 @@
       <class name="testcases.LoginTests">
         <methods>
           <include name="tearDown"/>
+          <include name="teardown"/>
           <include name="setUp"/>
-          <include name="AECP_ProjectManager_Login_TC002"/>
+          <include name="setup"/>
+          <include name="AECP_ProjectManager_Login_TC003"/>
         </methods>
       </class> <!-- testcases.LoginTests -->
     </classes>

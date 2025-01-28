@@ -23,3 +23,171 @@
 [INFO ] 2025-01-16 17:15:40.103 [main] LoginTests - Fetched the actual title: AECP
 [INFO ] 2025-01-16 17:24:45.938 [main] LoginTests - Fetched the actual title: AECP
 [INFO ] 2025-01-16 17:39:43.314 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-16 18:52:03.628 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-16 18:52:14.824 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-16 18:52:14.831 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-16 18:52:14.831 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-16 18:52:27.539 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-16 18:52:27.595 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-16 18:52:52.603 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-16 18:52:52.610 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-16 18:53:06.799 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-16 18:53:06.877 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 09:32:18.876 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 09:32:18.894 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 09:32:18.897 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 09:32:32.368 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 09:32:32.381 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 09:32:43.720 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 09:32:43.749 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 09:32:55.282 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 09:32:55.300 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:06:32.324 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 10:06:32.333 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 10:06:44.018 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 10:06:44.026 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 10:06:44.026 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 10:06:55.042 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:06:55.054 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:07:04.399 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:07:04.419 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:07:14.177 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:07:14.188 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:10:28.286 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 10:10:28.288 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 10:10:37.398 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 10:10:37.415 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 10:10:37.415 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 10:10:47.267 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:10:47.281 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:11:02.255 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:11:02.295 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:11:13.215 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:11:13.238 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:17:42.989 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 10:17:42.992 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 10:17:51.870 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 10:17:51.892 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 10:17:51.893 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 10:18:02.180 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:18:02.196 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:18:11.518 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:18:11.534 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:18:20.670 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:18:20.682 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:20:11.480 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 10:20:11.482 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 10:20:20.573 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 10:20:20.593 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 10:20:20.594 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 10:20:32.314 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:20:32.345 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:20:41.704 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:20:41.714 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:20:51.198 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:20:51.209 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:21:49.235 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 10:21:49.238 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 10:21:58.092 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 10:21:58.108 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 10:21:58.109 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 10:22:08.430 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:22:08.454 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:22:17.441 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:22:17.448 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 10:22:26.731 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 10:22:26.745 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:20:48.726 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 11:20:48.728 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 11:20:57.413 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 11:20:57.434 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 11:20:57.437 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 11:21:07.178 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:21:07.189 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:21:16.035 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:21:16.044 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:21:29.896 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:21:29.910 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:47:12.522 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 11:47:12.524 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-01-28 11:47:28.581 [main] LoginTests - Login happened successfully
+[INFO ] 2025-01-28 11:47:28.638 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-01-28 11:47:28.638 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-01-28 11:47:39.612 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:47:39.619 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:47:49.360 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:47:49.378 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 11:47:59.166 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-01-28 11:47:59.177 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-01-28 12:06:56.006 [main] LoginTests - Validating page load
+[INFO ] 2025-01-28 12:06:56.027 [main] LoginTests - Page loaded successfully with all content
+[INFO ] 2025-01-28 12:18:17.069 [main] LoginTests - Validating page load
+[INFO ] 2025-01-28 12:18:17.090 [main] LoginTests - Page loaded successfully with all content
+[INFO ] 2025-01-28 12:18:27.107 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 12:18:36.699 [main] LoginTests - Verify logo
+[ERROR] 2025-01-28 12:18:36.701 [main] LoginTests - An error occured while validating the logo:
+java.lang.NullPointerException: Cannot invoke "pages.DashboardPage.getLogo()" because "this.dashboard" is null
+	at testcases.DashbaordTests.AECP_ProjectManager_Dashboard_TC004(DashbaordTests.java:71) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-01-28 12:20:37.867 [main] LoginTests - Validating page load
+[INFO ] 2025-01-28 12:20:37.881 [main] LoginTests - Page loaded successfully with all content
+[INFO ] 2025-01-28 12:20:48.167 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 12:20:57.039 [main] LoginTests - Verify logo
+[INFO ] 2025-01-28 12:20:57.074 [main] LoginTests - Logo is displayed in the page
+[INFO ] 2025-01-28 12:55:11.531 [main] LoginTests - Validating page load
+[INFO ] 2025-01-28 12:55:11.587 [main] LoginTests - Page loaded successfully with all content
+[INFO ] 2025-01-28 12:55:21.295 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-01-28 12:55:31.135 [main] LoginTests - Verify logo
+[INFO ] 2025-01-28 12:55:31.160 [main] LoginTests - Logo is displayed in the page
+[INFO ] 2025-01-28 13:07:21.480 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:07:38.026 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:07:47.941 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:07:57.944 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:08:07.608 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:08:17.976 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:08:27.801 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:08:42.159 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:08:52.102 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:12:11.410 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:12:26.555 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:12:48.094 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:13:09.096 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:13:23.902 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:13:38.579 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:13:53.368 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:14:08.056 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:14:22.926 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:19:27.113 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:19:37.054 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:19:46.725 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:19:56.479 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:20:05.997 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:20:15.565 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:20:25.338 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:20:34.884 [main] LoginTests - Verify navigation links are working fine
+[INFO ] 2025-01-28 13:20:45.304 [main] LoginTests - Verify navigation links are working fine

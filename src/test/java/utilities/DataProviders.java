@@ -33,6 +33,12 @@ public class DataProviders extends UtilClass{
 		return data;
 	}
 	
+	@DataProvider(name="DashboardNavigation")
+	public Object[][] navigationLinksDashboard() throws Exception{
+	   return UtilClass.dataReader("Dashboard_Navigation", "/src/test/resources/testData/AECP_Data.xlsx.xlsx");
+	
+	}
+	
 	
 			
 

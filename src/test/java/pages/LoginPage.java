@@ -17,6 +17,9 @@ public class LoginPage extends BaseClass{
 	@FindBy(xpath=" //button[normalize-space()='Submit']")
 	WebElement btn_submit;
 	
+	@FindBy(css = "div[class='Container'] div h1")
+	WebElement login_header;
+	
 	public LoginPage()
 	{
 		PageFactory.initElements(driver, this);
@@ -65,6 +68,10 @@ public class LoginPage extends BaseClass{
 
 	public void setBtn_submit(WebElement btn_submit) {
 		this.btn_submit = btn_submit;
+	}
+	
+	public WebElement getLogin_header() {
+		return login_header;
 	}
 	
 	
