@@ -5,11 +5,11 @@
     <classes>
       <class name="testcases.DashbaordTests">
         <methods>
-          <include name="AECP_ProjectManager_Dashboard_TC008" invocation-numbers="0 1 2 3 4 5 6 7 8"/>
+          <include name="select_Date"/>
           <include name="tearDown"/>
           <include name="teardown"/>
-          <include name="setUp"/>
           <include name="setup"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testcases.DashbaordTests -->
     </classes>
