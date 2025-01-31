@@ -50,10 +50,8 @@ public class DashboardTests extends BaseClass1{
 			String expectedTitle="AECP";
 			String actualTitle= driver.getTitle();
 			logger.info("Fetched the actual title: " + actualTitle);
-
 			Assert.assertEquals(actualTitle, expectedTitle);			
-			logger.info("actual title matches with expected title");
-			
+			logger.info("actual title matches with expected title");		
 			test.pass("Page title verification passed.");
 			 }catch (Exception e) {
 		            logger.error("An error occurred while verifying the page title: ", e);

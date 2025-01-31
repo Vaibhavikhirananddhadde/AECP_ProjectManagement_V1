@@ -72,27 +72,36 @@ public class DashboardPage extends BaseClass{
 	}
 
 	public void clickNextMonth() {
+		String previousMonth = current_month.getText();
 		next_month.click();
-		waitImplicit();
-		System.out.println(current_month.getText());
+		//System.out.println(current_month.getText());
+		String nextMonth = current_month.getText();
+	    Assert.assertNotEquals(nextMonth, previousMonth);
 	}
 
 	public void clickPreviousMonth() {
+		String previousMonth = current_month.getText();
 		previous_month.click();
-		waitImplicit();
-		System.out.println(current_month.getText());
+		String nextMonth = current_month.getText();
+		//System.out.println(current_month.getText());
+		Assert.assertNotEquals(nextMonth, previousMonth);
 	}
 
 	public void clickNextYear() {
+		String previousMonth = current_month.getText();
 		next_year.click();
-		waitImplicit();
-		System.out.println(current_month.getText());
+		String nextMonth = current_month.getText();
+		//System.out.println(current_month.getText());
+		Assert.assertNotEquals(nextMonth, previousMonth);
 	}
 
 	public void clickPreviousYear() {
+		String previousMonth = current_month.getText();
 		previous_year.click();
 		waitImplicit();
-		System.out.println(current_month.getText());
+		String nextMonth = current_month.getText();
+		//System.out.println(current_month.getText());
+		Assert.assertNotEquals(nextMonth, previousMonth);
 	}
 
 

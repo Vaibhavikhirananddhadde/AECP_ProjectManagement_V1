@@ -276,3 +276,28 @@ java.lang.NullPointerException: Cannot invoke "pages.DashboardPage.getLogo()" be
 [INFO ] 2025-01-29 16:06:58.374 [main] LoginTests - Verify navigation links are working fine
 [INFO ] 2025-01-29 16:07:16.839 [main] LoginTests - Verify the next month button
 [INFO ] 2025-01-29 16:07:17.038 [main] LoginTests - Clicked on next month button
+[INFO ] 2025-01-30 20:08:49.755 [main] LoginTests - Verify the next month button
+[INFO ] 2025-01-30 20:08:49.962 [main] LoginTests - Clicked on next month button
+[INFO ] 2025-01-30 20:12:36.443 [main] LoginTests - Verify the next month button
+[INFO ] 2025-01-30 20:12:36.628 [main] LoginTests - Clicked on next month button
+[INFO ] 2025-01-30 20:12:48.263 [main] LoginTests - Verify the previous month button
+[INFO ] 2025-01-30 20:12:48.480 [main] LoginTests - Clicked on previous month button
+[INFO ] 2025-01-30 20:13:07.845 [main] LoginTests - Verify the next year button
+[INFO ] 2025-01-30 20:13:08.061 [main] LoginTests - Clicked on next year button
+[INFO ] 2025-01-30 20:13:18.972 [main] LoginTests - Verify the previous year button
+[INFO ] 2025-01-30 20:13:19.179 [main] LoginTests - Clicked on previous year button
+[INFO ] 2025-01-31 16:50:43.467 [main] LoginTests - Page loaded successfully
+[INFO ] 2025-01-31 18:30:17.124 [main] LoginTests - Page loaded successfully
+[INFO ] 2025-01-31 18:30:27.599 [main] LoginTests - Verifying page title
+[INFO ] 2025-01-31 18:30:27.617 [main] LoginTests - Page title is displayed
+[INFO ] 2025-01-31 18:34:59.937 [main] LoginTests - Verifying page header
+[INFO ] 2025-01-31 18:37:22.729 [main] LoginTests - Verifying page header
+[INFO ] 2025-01-31 18:39:44.224 [main] LoginTests - Verifying page header
+[INFO ] 2025-01-31 18:49:28.207 [main] LoginTests - Verifying page header
+[INFO ] 2025-01-31 18:49:28.372 [main] LoginTests - Verifying with expected page header
+[INFO ] 2025-01-31 18:53:57.158 [main] LoginTests - Verifying page header
+[INFO ] 2025-01-31 18:53:57.374 [main] LoginTests - Verifying with expected page header
+[INFO ] 2025-01-31 19:00:57.346 [main] LoginTests - Verify logo
+[INFO ] 2025-01-31 19:00:57.613 [main] LoginTests - Logo is displayed in the page
+[INFO ] 2025-01-31 19:01:36.676 [main] LoginTests - Verify logo
+[INFO ] 2025-01-31 19:01:36.907 [main] LoginTests - Logo is displayed in the page

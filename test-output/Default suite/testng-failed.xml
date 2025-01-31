@@ -3,15 +3,15 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.DashbaordTests">
+      <class name="testcases.ProjectTests">
         <methods>
-          <include name="select_Date"/>
           <include name="tearDown"/>
+          <include name="AECP_ProjectManager_Project_TC003"/>
           <include name="teardown"/>
           <include name="setup"/>
           <include name="setUp"/>
         </methods>
-      </class> <!-- testcases.DashbaordTests -->
+      </class> <!-- testcases.ProjectTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
