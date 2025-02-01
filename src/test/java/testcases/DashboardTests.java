@@ -209,5 +209,23 @@ public class DashboardTests extends BaseClass1{
 				throw e;
 			}
 		}
+		
+		//Verify that footer is sticky
+		@Test(priority = 11)
+		public void AECP_ProjectManager_Dashboard_TC021() {
+			logger.info("Verify footer sticky");
+			test = extent.createTest("Verify logout");
+			try {
+			dashboard = new DashboardPage();
+			dashboard.checkFooterSticky();
+			test.pass("Footer sticky verification passed");
+			}catch(Exception e)
+			{
+				logger.error("An error occured while checking footer sticky");
+				test.fail("footer verification test failed "+e.getMessage());
+				throw e;
+			}
+			
+		}
 
 }

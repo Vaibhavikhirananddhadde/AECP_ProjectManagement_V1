@@ -3,6 +3,7 @@ package pages;
 import java.util.List;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -40,8 +41,7 @@ public class DashboardPage extends BaseClass{
 
 	@FindBy(xpath="//button[@role='menuitem']//span[contains(text(),'Logout')]")
 	WebElement btn_logout;
-
-
+	
 
 	public DashboardPage() {
 		PageFactory.initElements(driver, this);
@@ -124,6 +124,18 @@ public class DashboardPage extends BaseClass{
 	public void logout() {
 		profile_name.click();
 		btn_logout.click();
+	}
+	
+	public boolean checkFooterSticky() {
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		js.executeScript("window.scrollTo(0, document.body.scrollHeight)");
+
+		Object footer = driver.findElement(By.xpath("//footer[@class='footer mt-4']"));
+		 // Get the CSS position property of the footer
+		
+		return (boolean) js.executeScript("var rect = arguments[0].getBoundingClientRect();"
+				+ "return (rect.bottom <= window.innerHeight && rect.bottom > 0);", footer);
+       
 	}
 
 

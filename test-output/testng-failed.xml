@@ -6,10 +6,10 @@
       <class name="testcases.ProjectTests">
         <methods>
           <include name="tearDown"/>
-          <include name="AECP_ProjectManager_Project_TC003"/>
           <include name="teardown"/>
-          <include name="setup"/>
           <include name="setUp"/>
+          <include name="setup"/>
+          <include name="AECP_ProjectManager_Project_TC005"/>
         </methods>
       </class> <!-- testcases.ProjectTests -->
     </classes>
