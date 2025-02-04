@@ -6,19 +6,24 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="testcases.DashboardTests">
+      <class name="testcases.TaskTests">
         <methods>
-          <include name="AECP_ProjectManager_Dashboard_TC018"/>
-          <include name="AECP_ProjectManager_Dashboard_TC019"/>
-          <include name="AECP_ProjectManager_Dashboard_TC020"/>
+          <include name="AECP_ProjectManager_Task_TC035"/>
           <include name="tearDown"/>
           <include name="teardown"/>
           <include name="setUp"/>
-          <include name="AECP_ProjectManager_Dashboard_TC017"/>
           <include name="setup"/>
-          <include name="AECP_ProjectManager_Dashboard_TC015"/>
         </methods>
-      </class> <!-- testcases.DashboardTests -->
+      </class> <!-- testcases.TaskTests -->
+      <class name="testcases.LoginTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="teardown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="AECP_ProjectManager_Login_TC003"/>
+        </methods>
+      </class> <!-- testcases.LoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

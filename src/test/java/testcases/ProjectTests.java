@@ -10,12 +10,12 @@ import pages.DashboardPage;
 import pages.ProjectPage;
 
 public class ProjectTests extends BaseClass1{
-	private static final Logger logger =  LogManager.getLogger(LoginTests.class);
+	private static final Logger logger =  LogManager.getLogger(ProjectTests.class);
 	ProjectPage project;
 	DashboardPage dashboard;
 
 	//Verify that page loaded with all the components
-	//@Test(priority =1)
+	@Test(priority =1)
 	public void AECP_ProjectManager_Project_TC001() {
 		test = extent.createTest("Verify that page loaded successfully");
 		project = new ProjectPage();
@@ -33,7 +33,7 @@ public class ProjectTests extends BaseClass1{
 	}
 	
 	//Verify that page title is present
-	//@Test(priority =2)
+	@Test(priority =2)
 	public void AECP_ProjectManager_Project_TC002() {
 		test = extent.createTest("Verify whether page title is present");
 		logger.info("Verifying page title");
@@ -51,7 +51,7 @@ public class ProjectTests extends BaseClass1{
 	}
 
 	//Verify logo is displayed.
-	//@Test(priority = 3)
+	@Test(priority = 3)
 	public void AECP_ProjectManager_Dashboard_TC004() {
 		logger.info("Verify logo", "Ensure logo is displayed in the page");
 		dashboard = new DashboardPage();
@@ -70,7 +70,7 @@ public class ProjectTests extends BaseClass1{
 	}
 	
 	//Verify Footer Links are Working Correctly
-	//@Test(priority =4)
+	@Test(priority =4)
 	public void AECP_ProjectManager_Project_TC005() {
 		logger.info("Verify Footer Links are Working Correctly");
 		project = new ProjectPage();
@@ -88,7 +88,7 @@ public class ProjectTests extends BaseClass1{
 	}
 	
 	//Verify Footer is Sticky (Remains at the Bottom)
-	//@Test(priority = 5)
+	@Test(priority = 5)
 	public void AECP_ProjectManager_Project_TC006() {
 		logger.info("Verify Footer is sticky");
 		test = extent.createTest("Verify footer sticky", "Ensure that footer is sticky");
@@ -106,7 +106,7 @@ public class ProjectTests extends BaseClass1{
 	}
 	
 	//Ensure that tooltip is displayed for icons on hover.
-	//@Test(priority = 6)
+	@Test(priority = 6)
 	public void AECP_ProjectManager_Project_TC009() {
 		logger.info("Hovering over message icon");
 		test = extent.createTest("Verify tooltip is displayed for message icon on hovering");

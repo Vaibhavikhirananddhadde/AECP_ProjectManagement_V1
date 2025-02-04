@@ -12,7 +12,7 @@ import pages.LoginPage;
 import utilities.DataProviders;
 
 public class DashboardTests extends BaseClass1{
-	 private static final Logger logger =  LogManager.getLogger(LoginTests.class);
+	 private static final Logger logger =  LogManager.getLogger(DashboardTests.class);
 	 public LoginPage login;
 	 public DashboardPage dashboard;
 	 

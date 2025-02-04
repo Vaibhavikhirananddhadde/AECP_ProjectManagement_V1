@@ -36,7 +36,18 @@ public class DataProviders extends UtilClass{
 	@DataProvider(name="DashboardNavigation")
 	public Object[][] navigationLinksDashboard() throws Exception{
 	   return UtilClass.dataReader("Dashboard_Navigation", "/src/test/resources/testData/AECP_Data.xlsx.xlsx");
+	}
 	
+	@DataProvider(name="Task_employee_dropdowndata")
+	public Object[][] employeeDd() throws Exception{
+		Object[][] data = dataReader("Task_employee_dd", "/src/test/resources/testData/AECP_Data.xlsx.xlsx");
+		return data;
+	}
+	
+	@DataProvider(name="Task_Period_dropdowndata")
+	public Object[][] periodDd() throws Exception{
+		Object[][] data = dataReader("Task_SelectPeriod_dd", "/src/test/resources/testData/AECP_Data.xlsx.xlsx");
+		return data;
 	}
 	
 	

@@ -43,10 +43,6 @@ public class BaseClass1 extends UtilClass{
 		login.successfulLogin();
 		}
 	
-
-	
-
-	
 	  @AfterMethod
 	    public void tearDown() {
 	        // Close the browser after each test

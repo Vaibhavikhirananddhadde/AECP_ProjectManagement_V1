@@ -64,7 +64,7 @@ public class LoginTests extends BaseClass{
 	
 
 	//Verify Page header is present and is valid
-		//@Test(priority = 3)
+		@Test(priority = 3)
 		public void AECP_ProjectManager_Login_TC003() {
 			login = new LoginPage();
 			 WebElement header = login.getLogin_header();

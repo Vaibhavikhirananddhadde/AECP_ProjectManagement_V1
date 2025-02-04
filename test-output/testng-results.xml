@@ -1,33 +1,1004 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="55" passed="53" failed="2" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-01T13:22:02 IST" name="Default suite" finished-at="2025-02-01T13:22:16 IST" duration-ms="13381">
+  <suite started-at="2025-02-04T13:28:51 IST" name="Suite" finished-at="2025-02-04T13:38:56 IST" duration-ms="604554">
     <groups>
     </groups>
-    <test started-at="2025-02-01T13:22:02 IST" name="Default test" finished-at="2025-02-01T13:22:16 IST" duration-ms="13381">
-      <class name="testcases.ProjectTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProjectTests@4189d70b]" started-at="2025-02-01T13:22:02 IST" name="setup" finished-at="2025-02-01T13:22:03 IST" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@4189d70b]" started-at="2025-02-01T13:22:03 IST" name="setUp" finished-at="2025-02-01T13:22:13 IST" duration-ms="10514" status="PASS">
+    <test started-at="2025-02-04T13:28:51 IST" name="Test" finished-at="2025-02-04T13:38:56 IST" duration-ms="604554">
+      <class name="testcases.DashboardTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:01 IST" name="setUp" finished-at="2025-02-04T13:30:10 IST" duration-ms="9247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="AECP_ProjectManager_Project_TC015()[pri:7, instance:testcases.ProjectTests@4189d70b]" started-at="2025-02-01T13:22:13 IST" name="AECP_ProjectManager_Project_TC015" finished-at="2025-02-01T13:22:14 IST" duration-ms="952" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:01 IST" name="setup" finished-at="2025-02-04T13:30:01 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- AECP_ProjectManager_Project_TC015 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@4189d70b]" started-at="2025-02-01T13:22:14 IST" name="tearDown" finished-at="2025-02-01T13:22:15 IST" duration-ms="1331" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC001()[pri:1, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:10 IST" name="AECP_ProjectManager_Dashboard_TC001" finished-at="2025-02-04T13:30:10 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:10 IST" name="tearDown" finished-at="2025-02-04T13:30:12 IST" duration-ms="1687" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.ProjectTests@4189d70b]" started-at="2025-02-01T13:22:15 IST" name="teardown" finished-at="2025-02-01T13:22:16 IST" duration-ms="377" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:12 IST" name="setUp" finished-at="2025-02-04T13:30:22 IST" duration-ms="9969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC002()[pri:2, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:22 IST" name="AECP_ProjectManager_Dashboard_TC002" finished-at="2025-02-04T13:30:22 IST" duration-ms="27" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:22 IST" name="tearDown" finished-at="2025-02-04T13:30:24 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:24 IST" name="setUp" finished-at="2025-02-04T13:30:33 IST" duration-ms="8969" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC004()[pri:3, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:33 IST" name="AECP_ProjectManager_Dashboard_TC004" finished-at="2025-02-04T13:30:33 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:33 IST" name="tearDown" finished-at="2025-02-04T13:30:34 IST" duration-ms="1421" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:34 IST" name="setUp" finished-at="2025-02-04T13:30:44 IST" duration-ms="9815" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:44 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:30:45 IST" duration-ms="327" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dashboard]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:45 IST" name="tearDown" finished-at="2025-02-04T13:30:46 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:46 IST" name="setUp" finished-at="2025-02-04T13:30:54 IST" duration-ms="8103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:54 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:30:55 IST" duration-ms="237" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Project]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:55 IST" name="tearDown" finished-at="2025-02-04T13:30:56 IST" duration-ms="1470" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:30:56 IST" name="setUp" finished-at="2025-02-04T13:31:05 IST" duration-ms="9000" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:05 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:05 IST" duration-ms="270" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:05 IST" name="tearDown" finished-at="2025-02-04T13:31:07 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:07 IST" name="setUp" finished-at="2025-02-04T13:31:15 IST" duration-ms="8530" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:15 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:16 IST" duration-ms="277" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Materials]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:16 IST" name="tearDown" finished-at="2025-02-04T13:31:17 IST" duration-ms="1494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:17 IST" name="setUp" finished-at="2025-02-04T13:31:25 IST" duration-ms="7875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:25 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:25 IST" duration-ms="281" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Engineer's]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:25 IST" name="tearDown" finished-at="2025-02-04T13:31:27 IST" duration-ms="1493" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:27 IST" name="setUp" finished-at="2025-02-04T13:31:34 IST" duration-ms="7425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:34 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:34 IST" duration-ms="287" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Budget]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:34 IST" name="tearDown" finished-at="2025-02-04T13:31:36 IST" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:36 IST" name="setUp" finished-at="2025-02-04T13:31:46 IST" duration-ms="9812" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:46 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:46 IST" duration-ms="336" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Leave Mangement]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:46 IST" name="tearDown" finished-at="2025-02-04T13:31:48 IST" duration-ms="1539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:48 IST" name="setUp" finished-at="2025-02-04T13:31:55 IST" duration-ms="7886" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:55 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:31:56 IST" duration-ms="255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Task Report]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:56 IST" name="tearDown" finished-at="2025-02-04T13:31:57 IST" duration-ms="1519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:31:57 IST" name="setUp" finished-at="2025-02-04T13:32:05 IST" duration-ms="7692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC008(java.lang.String)[pri:4, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:05 IST" name="AECP_ProjectManager_Dashboard_TC008" data-provider="DashboardNavigation" finished-at="2025-02-04T13:32:05 IST" duration-ms="319" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Request Resource]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC008 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:05 IST" name="tearDown" finished-at="2025-02-04T13:32:07 IST" duration-ms="1517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:07 IST" name="setUp" finished-at="2025-02-04T13:32:19 IST" duration-ms="11881" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC016()[pri:5, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:19 IST" name="AECP_ProjectManager_Dashboard_TC016" finished-at="2025-02-04T13:32:19 IST" duration-ms="217" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC016 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:19 IST" name="tearDown" finished-at="2025-02-04T13:32:20 IST" duration-ms="1543" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:20 IST" name="setUp" finished-at="2025-02-04T13:32:29 IST" duration-ms="8165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC017()[pri:6, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:29 IST" name="AECP_ProjectManager_Dashboard_TC017" finished-at="2025-02-04T13:32:29 IST" duration-ms="223" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC017 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:29 IST" name="tearDown" finished-at="2025-02-04T13:32:30 IST" duration-ms="1538" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:30 IST" name="setUp" finished-at="2025-02-04T13:32:38 IST" duration-ms="7940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC018()[pri:7, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:38 IST" name="AECP_ProjectManager_Dashboard_TC018" finished-at="2025-02-04T13:32:39 IST" duration-ms="229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC018 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:39 IST" name="tearDown" finished-at="2025-02-04T13:32:40 IST" duration-ms="1504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:40 IST" name="setUp" finished-at="2025-02-04T13:32:50 IST" duration-ms="9661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC019()[pri:8, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:50 IST" name="AECP_ProjectManager_Dashboard_TC019" finished-at="2025-02-04T13:32:50 IST" duration-ms="239" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC019 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:50 IST" name="tearDown" finished-at="2025-02-04T13:32:51 IST" duration-ms="1404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:51 IST" name="setUp" finished-at="2025-02-04T13:32:59 IST" duration-ms="7754" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC020()[pri:9, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:59 IST" name="AECP_ProjectManager_Dashboard_TC020" finished-at="2025-02-04T13:32:59 IST" duration-ms="233" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC020 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:32:59 IST" name="tearDown" finished-at="2025-02-04T13:33:01 IST" duration-ms="1499" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:01 IST" name="setUp" finished-at="2025-02-04T13:33:10 IST" duration-ms="9111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC015()[pri:10, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:10 IST" name="AECP_ProjectManager_Dashboard_TC015" finished-at="2025-02-04T13:33:10 IST" duration-ms="248" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC015 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:10 IST" name="tearDown" finished-at="2025-02-04T13:33:12 IST" duration-ms="1550" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:12 IST" name="setUp" finished-at="2025-02-04T13:33:22 IST" duration-ms="10291" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC021()[pri:11, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:22 IST" name="AECP_ProjectManager_Dashboard_TC021" finished-at="2025-02-04T13:33:22 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC021 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:22 IST" name="tearDown" finished-at="2025-02-04T13:33:24 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.DashboardTests@7fc6de5b]" started-at="2025-02-04T13:33:24 IST" name="teardown" finished-at="2025-02-04T13:33:24 IST" duration-ms="253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.DashboardTests -->
+      <class name="testcases.TaskTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:35 IST" name="setup" finished-at="2025-02-04T13:34:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:35 IST" name="setUp" finished-at="2025-02-04T13:34:44 IST" duration-ms="8682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC001()[pri:1, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:44 IST" name="AECP_ProjectManager_Task_TC001" finished-at="2025-02-04T13:34:44 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:44 IST" name="tearDown" finished-at="2025-02-04T13:34:46 IST" duration-ms="2098" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:46 IST" name="setUp" finished-at="2025-02-04T13:34:54 IST" duration-ms="8139" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC002()[pri:2, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:54 IST" name="AECP_ProjectManager_Task_TC002" finished-at="2025-02-04T13:34:54 IST" duration-ms="198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:54 IST" name="tearDown" finished-at="2025-02-04T13:34:56 IST" duration-ms="1432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:34:56 IST" name="setUp" finished-at="2025-02-04T13:35:03 IST" duration-ms="7608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC004()[pri:3, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:03 IST" name="AECP_ProjectManager_Task_TC004" finished-at="2025-02-04T13:35:04 IST" duration-ms="255" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:04 IST" name="tearDown" finished-at="2025-02-04T13:35:05 IST" duration-ms="1571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:05 IST" name="setUp" finished-at="2025-02-04T13:35:16 IST" duration-ms="10322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC006()[pri:4, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:16 IST" name="AECP_ProjectManager_Task_TC006" finished-at="2025-02-04T13:35:16 IST" duration-ms="200" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:16 IST" name="tearDown" finished-at="2025-02-04T13:35:17 IST" duration-ms="1627" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:18 IST" name="setUp" finished-at="2025-02-04T13:35:26 IST" duration-ms="8553" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:26 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:35:27 IST" duration-ms="913" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jayamani N]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:27 IST" name="tearDown" finished-at="2025-02-04T13:35:30 IST" duration-ms="2933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:30 IST" name="setUp" finished-at="2025-02-04T13:35:38 IST" duration-ms="8039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:38 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:35:39 IST" duration-ms="672" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anusiya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:39 IST" name="tearDown" finished-at="2025-02-04T13:35:41 IST" duration-ms="2211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:41 IST" name="setUp" finished-at="2025-02-04T13:35:49 IST" duration-ms="7666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:49 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:35:49 IST" duration-ms="448" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Harish]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:49 IST" name="tearDown" finished-at="2025-02-04T13:35:51 IST" duration-ms="1461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:51 IST" name="setUp" finished-at="2025-02-04T13:35:58 IST" duration-ms="7585" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:58 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:35:59 IST" duration-ms="687" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Jyothsna]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:35:59 IST" name="tearDown" finished-at="2025-02-04T13:36:00 IST" duration-ms="1490" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:00 IST" name="setUp" finished-at="2025-02-04T13:36:10 IST" duration-ms="9461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:10 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:36:10 IST" duration-ms="702" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sharath Chandra B R]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:10 IST" name="tearDown" finished-at="2025-02-04T13:36:12 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:12 IST" name="setUp" finished-at="2025-02-04T13:36:25 IST" duration-ms="12973" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:25 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:36:26 IST" duration-ms="907" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Divya]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:26 IST" name="tearDown" finished-at="2025-02-04T13:36:27 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:36:27 IST" name="setUp" finished-at="2025-02-04T13:37:00 IST" duration-ms="32367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:00 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:37:01 IST" duration-ms="734" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sunil]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:01 IST" name="tearDown" finished-at="2025-02-04T13:37:02 IST" duration-ms="1529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:02 IST" name="setUp" finished-at="2025-02-04T13:37:10 IST" duration-ms="7525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:10 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:37:10 IST" duration-ms="591" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Dilip Kumar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:10 IST" name="tearDown" finished-at="2025-02-04T13:37:12 IST" duration-ms="1576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:12 IST" name="setUp" finished-at="2025-02-04T13:37:19 IST" duration-ms="7287" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC009(java.lang.String)[pri:5, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:19 IST" name="AECP_ProjectManager_Task_TC009" data-provider="Task_employee_dropdowndata" finished-at="2025-02-04T13:37:20 IST" duration-ms="674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Anandh]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:20 IST" name="tearDown" finished-at="2025-02-04T13:37:21 IST" duration-ms="1513" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:21 IST" name="setUp" finished-at="2025-02-04T13:37:29 IST" duration-ms="7537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC010()[pri:6, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:29 IST" name="AECP_ProjectManager_Task_TC010" finished-at="2025-02-04T13:37:29 IST" duration-ms="346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC010 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:29 IST" name="tearDown" finished-at="2025-02-04T13:37:32 IST" duration-ms="3184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:32 IST" name="setUp" finished-at="2025-02-04T13:37:43 IST" duration-ms="10774" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC011(java.lang.String)[pri:7, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:43 IST" name="AECP_ProjectManager_Task_TC011" data-provider="Task_Period_dropdowndata" finished-at="2025-02-04T13:37:44 IST" duration-ms="349" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Week]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC011 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:44 IST" name="tearDown" finished-at="2025-02-04T13:37:46 IST" duration-ms="2013" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:46 IST" name="setUp" finished-at="2025-02-04T13:37:55 IST" duration-ms="9573" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC011(java.lang.String)[pri:7, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:55 IST" name="AECP_ProjectManager_Task_TC011" data-provider="Task_Period_dropdowndata" finished-at="2025-02-04T13:37:55 IST" duration-ms="354" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Month]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC011 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:55 IST" name="tearDown" finished-at="2025-02-04T13:37:57 IST" duration-ms="1441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:37:57 IST" name="setUp" finished-at="2025-02-04T13:38:04 IST" duration-ms="7314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC011(java.lang.String)[pri:7, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:04 IST" name="AECP_ProjectManager_Task_TC011" data-provider="Task_Period_dropdowndata" finished-at="2025-02-04T13:38:05 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Year]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC011 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:05 IST" name="tearDown" finished-at="2025-02-04T13:38:06 IST" duration-ms="1524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:06 IST" name="setUp" finished-at="2025-02-04T13:38:14 IST" duration-ms="7443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC012()[pri:8, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:14 IST" name="AECP_ProjectManager_Task_TC012" finished-at="2025-02-04T13:38:14 IST" duration-ms="923" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC012 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:14 IST" name="tearDown" finished-at="2025-02-04T13:38:16 IST" duration-ms="1491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:16 IST" name="setUp" finished-at="2025-02-04T13:38:23 IST" duration-ms="7395" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC018()[pri:9, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:23 IST" name="AECP_ProjectManager_Task_TC018" finished-at="2025-02-04T13:38:24 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC018 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:24 IST" name="tearDown" finished-at="2025-02-04T13:38:25 IST" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:25 IST" name="setUp" finished-at="2025-02-04T13:38:33 IST" duration-ms="7368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC033()[pri:10, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:33 IST" name="AECP_ProjectManager_Task_TC033" finished-at="2025-02-04T13:38:34 IST" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC033 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:34 IST" name="tearDown" finished-at="2025-02-04T13:38:35 IST" duration-ms="1563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:35 IST" name="setUp" finished-at="2025-02-04T13:38:43 IST" duration-ms="7668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC034()[pri:11, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:43 IST" name="AECP_ProjectManager_Task_TC034" finished-at="2025-02-04T13:38:44 IST" duration-ms="1074" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC034 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:44 IST" name="tearDown" finished-at="2025-02-04T13:38:46 IST" duration-ms="1531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:46 IST" name="setUp" finished-at="2025-02-04T13:38:53 IST" duration-ms="7517" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Task_TC035()[pri:12, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:53 IST" name="AECP_ProjectManager_Task_TC035" finished-at="2025-02-04T13:38:54 IST" duration-ms="614" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [false] but found [true]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [false] but found [true]
+at org.testng.Assert.fail(Assert.java:111)
+at org.testng.Assert.failNotEquals(Assert.java:1578)
+at org.testng.Assert.assertFalse(Assert.java:79)
+at org.testng.Assert.assertFalse(Assert.java:89)
+at pages.TaskPage.deleteTask(TaskPage.java:152)
+at testcases.TaskTests.AECP_ProjectManager_Task_TC035(TaskTests.java:223)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Task_TC035 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:54 IST" name="tearDown" finished-at="2025-02-04T13:38:56 IST" duration-ms="1486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.TaskTests@607fbe09]" started-at="2025-02-04T13:38:56 IST" name="teardown" finished-at="2025-02-04T13:38:56 IST" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.TaskTests -->
+      <class name="testcases.ProjectTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:24 IST" name="setup" finished-at="2025-02-04T13:33:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:24 IST" name="setUp" finished-at="2025-02-04T13:33:32 IST" duration-ms="8295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC001()[pri:1, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:32 IST" name="AECP_ProjectManager_Project_TC001" finished-at="2025-02-04T13:33:32 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:32 IST" name="tearDown" finished-at="2025-02-04T13:33:34 IST" duration-ms="1552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:34 IST" name="setUp" finished-at="2025-02-04T13:33:42 IST" duration-ms="7759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC002()[pri:2, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:42 IST" name="AECP_ProjectManager_Project_TC002" finished-at="2025-02-04T13:33:42 IST" duration-ms="22" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:42 IST" name="tearDown" finished-at="2025-02-04T13:33:43 IST" duration-ms="1594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:43 IST" name="setUp" finished-at="2025-02-04T13:33:51 IST" duration-ms="8003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Dashboard_TC004()[pri:3, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:51 IST" name="AECP_ProjectManager_Dashboard_TC004" finished-at="2025-02-04T13:33:51 IST" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Dashboard_TC004 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:51 IST" name="tearDown" finished-at="2025-02-04T13:33:53 IST" duration-ms="1547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:33:53 IST" name="setUp" finished-at="2025-02-04T13:34:01 IST" duration-ms="8132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC005()[pri:4, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:01 IST" name="AECP_ProjectManager_Project_TC005" finished-at="2025-02-04T13:34:04 IST" duration-ms="2817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC005 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:04 IST" name="tearDown" finished-at="2025-02-04T13:34:06 IST" duration-ms="1996" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:06 IST" name="setUp" finished-at="2025-02-04T13:34:14 IST" duration-ms="7555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC006()[pri:5, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:14 IST" name="AECP_ProjectManager_Project_TC006" finished-at="2025-02-04T13:34:14 IST" duration-ms="218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:14 IST" name="tearDown" finished-at="2025-02-04T13:34:15 IST" duration-ms="1508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:15 IST" name="setUp" finished-at="2025-02-04T13:34:23 IST" duration-ms="7820" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC009()[pri:6, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:23 IST" name="AECP_ProjectManager_Project_TC009" finished-at="2025-02-04T13:34:23 IST" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC009 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:23 IST" name="tearDown" finished-at="2025-02-04T13:34:25 IST" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:25 IST" name="setUp" finished-at="2025-02-04T13:34:33 IST" duration-ms="7779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Project_TC015()[pri:7, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:33 IST" name="AECP_ProjectManager_Project_TC015" finished-at="2025-02-04T13:34:34 IST" duration-ms="818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Project_TC015 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:34 IST" name="tearDown" finished-at="2025-02-04T13:34:35 IST" duration-ms="1566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.ProjectTests@21baa903]" started-at="2025-02-04T13:34:35 IST" name="teardown" finished-at="2025-02-04T13:34:35 IST" duration-ms="130" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testcases.ProjectTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="testcases.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:28:51 IST" name="setup" finished-at="2025-02-04T13:28:51 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:28:51 IST" name="setUp" finished-at="2025-02-04T13:28:59 IST" duration-ms="7122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC001()[pri:1, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:28:59 IST" name="AECP_ProjectManager_Login_TC001" finished-at="2025-02-04T13:28:59 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC001 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:28:59 IST" name="tearDown" finished-at="2025-02-04T13:29:00 IST" duration-ms="1482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:00 IST" name="setUp" finished-at="2025-02-04T13:29:06 IST" duration-ms="5747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC002()[pri:2, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:06 IST" name="AECP_ProjectManager_Login_TC002" finished-at="2025-02-04T13:29:06 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC002 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:06 IST" name="tearDown" finished-at="2025-02-04T13:29:08 IST" duration-ms="1649" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:08 IST" name="setUp" finished-at="2025-02-04T13:29:10 IST" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC003()[pri:3, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:10 IST" name="AECP_ProjectManager_Login_TC003" finished-at="2025-02-04T13:29:14 IST" duration-ms="4417" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"div[class='Container'] div h1"}
+  (Session info: MicrosoftEdge=132.0.2957.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [41f1f80579f73d086f08ed05b77390e4, findElement {using=css selector, value=div[class='Container'] div h1}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.140, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60992}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\Vaibhavi\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 132.0.2957.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41f1f80579f73d086f08ed05b77390e4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"div[class='Container'] div h1"}
+  (Session info: MicrosoftEdge=132.0.2957.140)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '18.0.2'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [41f1f80579f73d086f08ed05b77390e4, findElement {using=css selector, value=div[class='Container'] div h1}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 132.0.2957.140, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:60992}, msedge: {msedgedriverVersion: 132.0.2957.140 (a81e27b375d..., userDataDir: C:\Users\Vaibhavi\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60992/devtoo..., se:cdpVersion: 132.0.2957.140, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 41f1f80579f73d086f08ed05b77390e4
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at jdk.proxy2/jdk.proxy2.$Proxy31.getText(Unknown Source)
+at testcases.LoginTests.AECP_ProjectManager_Login_TC003(LoginTests.java:71)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC003 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:14 IST" name="tearDown" finished-at="2025-02-04T13:29:16 IST" duration-ms="1419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:16 IST" name="setUp" finished-at="2025-02-04T13:29:18 IST" duration-ms="2469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC006()[pri:4, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:18 IST" name="AECP_ProjectManager_Login_TC006" finished-at="2025-02-04T13:29:24 IST" duration-ms="6115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC006 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:24 IST" name="tearDown" finished-at="2025-02-04T13:29:26 IST" duration-ms="1707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:28 IST" name="setUp" finished-at="2025-02-04T13:29:33 IST" duration-ms="4373" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC007(java.lang.String,java.lang.String)[pri:5, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:33 IST" name="AECP_ProjectManager_Login_TC007" data-provider="Logindata" finished-at="2025-02-04T13:29:36 IST" duration-ms="3874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testvaibhavi@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:36 IST" name="tearDown" finished-at="2025-02-04T13:29:38 IST" duration-ms="1532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:38 IST" name="setUp" finished-at="2025-02-04T13:29:45 IST" duration-ms="6590" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC007(java.lang.String,java.lang.String)[pri:5, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:45 IST" name="AECP_ProjectManager_Login_TC007" data-provider="Logindata" finished-at="2025-02-04T13:29:48 IST" duration-ms="3927" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[anu@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:48 IST" name="tearDown" finished-at="2025-02-04T13:29:50 IST" duration-ms="1541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:50 IST" name="setUp" finished-at="2025-02-04T13:29:55 IST" duration-ms="4551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="AECP_ProjectManager_Login_TC007(java.lang.String,java.lang.String)[pri:5, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:55 IST" name="AECP_ProjectManager_Login_TC007" data-provider="Logindata" finished-at="2025-02-04T13:29:58 IST" duration-ms="3908" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@example.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aecp@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AECP_ProjectManager_Login_TC007 -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:29:58 IST" name="tearDown" finished-at="2025-02-04T13:30:00 IST" duration-ms="1780" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.LoginTests@72758afa]" started-at="2025-02-04T13:30:00 IST" name="teardown" finished-at="2025-02-04T13:30:01 IST" duration-ms="934" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.LoginTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -40,10 +40,6 @@ public class BaseClass extends UtilClass{
 		logger.info("Entering url in the browser");
 	}
 	
-
-	
-
-	
 	  @AfterMethod
 	    public void tearDown() {
 	        // Close the browser after each test
