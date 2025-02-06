@@ -17,8 +17,8 @@ public class ProjectTests extends BaseClass1{
 	//Verify that page loaded with all the components
 	@Test(priority =1)
 	public void AECP_ProjectManager_Project_TC001() {
-		test = extent.createTest("Verify that page loaded successfully");
 		project = new ProjectPage();
+		test = extent.createTest("Verify that page loaded successfully");
 		try {
 		project.getLink_project().click();
 		waitExplicit(project.getPageHeader_project());
@@ -35,9 +35,9 @@ public class ProjectTests extends BaseClass1{
 	//Verify that page title is present
 	@Test(priority =2)
 	public void AECP_ProjectManager_Project_TC002() {
+		project = new ProjectPage();
 		test = extent.createTest("Verify whether page title is present");
 		logger.info("Verifying page title");
-		project = new ProjectPage();
 		try {
 		project.verifyPageTitle();
 		test.pass("Verify page title test passed");
@@ -53,9 +53,9 @@ public class ProjectTests extends BaseClass1{
 	//Verify logo is displayed.
 	@Test(priority = 3)
 	public void AECP_ProjectManager_Dashboard_TC004() {
+		project = new ProjectPage();
 		logger.info("Verify logo", "Ensure logo is displayed in the page");
 		dashboard = new DashboardPage();
-		project = new ProjectPage();
 		project.getLink_project().click();
 		test = extent.createTest("Verify logo", "Ensure the logo is displayed in the page");
 		 try {
@@ -72,8 +72,8 @@ public class ProjectTests extends BaseClass1{
 	//Verify Footer Links are Working Correctly
 	@Test(priority =4)
 	public void AECP_ProjectManager_Project_TC005() {
-		logger.info("Verify Footer Links are Working Correctly");
 		project = new ProjectPage();
+		logger.info("Verify Footer Links are Working Correctly");
 		project.getLink_project().click();
 		test = extent.createTest("Verify footer link", "Ensure that footer link is working fine");
 		try {
@@ -90,9 +90,9 @@ public class ProjectTests extends BaseClass1{
 	//Verify Footer is Sticky (Remains at the Bottom)
 	@Test(priority = 5)
 	public void AECP_ProjectManager_Project_TC006() {
+		project = new ProjectPage();
 		logger.info("Verify Footer is sticky");
 		test = extent.createTest("Verify footer sticky", "Ensure that footer is sticky");
-		project = new ProjectPage();
 		try {
 		project.getLink_project().click();	
 		project.checkFooterSticky();
@@ -108,9 +108,9 @@ public class ProjectTests extends BaseClass1{
 	//Ensure that tooltip is displayed for icons on hover.
 	@Test(priority = 6)
 	public void AECP_ProjectManager_Project_TC009() {
+		project = new ProjectPage();
 		logger.info("Hovering over message icon");
 		test = extent.createTest("Verify tooltip is displayed for message icon on hovering");
-		project = new ProjectPage();
 		try {
 			project.getLink_project().click();
 			project.hoveringMsgIcon();
@@ -126,9 +126,9 @@ public class ProjectTests extends BaseClass1{
 	//Verify that the search field returns the correct results when a valid search query is entered.
 	@Test(priority = 7)
 	public void AECP_ProjectManager_Project_TC015() {
+		project = new ProjectPage();
 		logger.info("Verify search field displays valid result ");
 		test = extent.createTest("Verify that valid results are displayed when matching text is entered");
-		project = new ProjectPage();
 		try {
 			project.getLink_project().click();
 			project.searchfieldFunctionality("vaibhavi");

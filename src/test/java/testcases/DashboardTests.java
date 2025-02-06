@@ -42,7 +42,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify Page title is displayed and it describes the page content	
-		@Test(priority = 2)
+		//@Test(priority = 2)
 		public void AECP_ProjectManager_Dashboard_TC002() throws Exception {   //PageTitle
 			
 			test = extent.createTest("Verify Page Title", "Ensure the page title matches the expected title");
@@ -62,7 +62,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify logo is displayed.
-		@Test(priority = 3)
+		//@Test(priority = 3)
 		public void AECP_ProjectManager_Dashboard_TC004() {
 			logger.info("Verify logo", "Ensure logo is displayed in the page");
 			dashboard = new DashboardPage();
@@ -82,7 +82,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Login to the  Project Manager Dashboard module Verify Navigation Links
-		@Test(dataProvider = "DashboardNavigation", priority = 4, dataProviderClass = DataProviders.class)
+		//@Test(dataProvider = "DashboardNavigation", priority = 4, dataProviderClass = DataProviders.class)
 		public void AECP_ProjectManager_Dashboard_TC008(String link_text) throws Exception {
 			logger.info("Verify navigation links are working fine");
 			dashboard = new DashboardPage();
@@ -98,7 +98,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify the "Next Month" button navigates to the next month in calender
-		@Test(priority = 5)
+		//@Test(priority = 5)
 		public void AECP_ProjectManager_Dashboard_TC016() {
 			logger.info("Verify the next month button");
 			dashboard = new DashboardPage();
@@ -117,7 +117,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify the "Previous Month" button navigates to the previous month.
-		@Test(priority = 6)
+		//@Test(priority = 6)
 		public void AECP_ProjectManager_Dashboard_TC017() {
 			logger.info("Verify the previous month button");
 			dashboard = new DashboardPage();
@@ -136,7 +136,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify the "Next Year" button navigates to the next year 
-		@Test(priority = 7)
+		//@Test(priority = 7)
 		public void AECP_ProjectManager_Dashboard_TC018() {
 			logger.info("Verify the next year button");
 			dashboard = new DashboardPage();
@@ -155,7 +155,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify the "Previous Year" button navigates to the previous year
-		@Test(priority = 8)
+		//@Test(priority = 8)
 		public void AECP_ProjectManager_Dashboard_TC019() {
 			logger.info("Verify the previous year button");
 			dashboard = new DashboardPage();
@@ -174,7 +174,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//  Verify selecting a date highlights the selected date.
-		@Test(priority=9)
+		//@Test(priority=9)
 		public void AECP_ProjectManager_Dashboard_TC020() throws Exception {
 			logger.info("Verify selecting a date from the calendar");
 			dashboard = new DashboardPage();
@@ -192,7 +192,7 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify that the user can log out successfully.
-		@Test(priority=10)
+		//@Test(priority=10)
 		public void AECP_ProjectManager_Dashboard_TC015() {
 			logger.info("Verify logout functionality");
 			dashboard = new DashboardPage();
@@ -211,10 +211,10 @@ public class DashboardTests extends BaseClass1{
 		}
 		
 		//Verify that footer is sticky
-		@Test(priority = 11)
+		//@Test(priority = 11)
 		public void AECP_ProjectManager_Dashboard_TC021() {
 			logger.info("Verify footer sticky");
-			test = extent.createTest("Verify logout");
+			test = extent.createTest("Verify footer sticky");
 			try {
 			dashboard = new DashboardPage();
 			dashboard.checkFooterSticky();

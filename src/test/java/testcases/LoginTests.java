@@ -68,6 +68,7 @@ public class LoginTests extends BaseClass{
 		public void AECP_ProjectManager_Login_TC003() {
 			login = new LoginPage();
 			 WebElement header = login.getLogin_header();
+			 waitImplicit();
 			 String actualHeader = header.getText();
 			logger.info("Get the actual page header");
 			String expectedHeader = "Login";

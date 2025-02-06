@@ -709,3 +709,263 @@ Session ID: d46ebaf87cf58cc6771bd28a37ec1c22
 [INFO ] 2025-02-04 13:34:23.588 [main] ProjectTests - Hovering over message icon
 [INFO ] 2025-02-04 13:34:33.224 [main] ProjectTests - Verify search field displays valid result 
 [INFO ] 2025-02-04 13:34:54.872 [main] TaskTests - Verifying page title
+[ERROR] 2025-02-05 19:14:40.792 [main] MaterialTests - An error occured while verifying page load
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at pages.MaterialsPage.clickOnMaterialsLink(MaterialsPage.java:22) ~[test-classes/:?]
+	at testcases.MaterialTests.AECP_ProjectManager_Materials_TC001(MaterialTests.java:20) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-02-06 15:30:02.851 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-02-06 15:30:02.853 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-02-06 15:30:09.122 [main] LoginTests - Get the actual page header
+[INFO ] 2025-02-06 15:30:09.122 [main] LoginTests - Actual header matches with actual header
+[INFO ] 2025-02-06 15:30:18.994 [main] LoginTests - Login happened successfully
+[INFO ] 2025-02-06 15:30:19.014 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-02-06 15:30:19.018 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-02-06 15:30:29.806 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:30:29.825 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:30:39.367 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:30:39.376 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:30:49.070 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:30:49.091 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:30:58.978 [main] DashboardTests - Validating page load
+[INFO ] 2025-02-06 15:30:59.001 [main] DashboardTests - Page loaded successfully with all content
+[INFO ] 2025-02-06 15:31:09.807 [main] DashboardTests - Fetched the actual title: AECP
+[INFO ] 2025-02-06 15:31:09.807 [main] DashboardTests - actual title matches with expected title
+[INFO ] 2025-02-06 15:31:19.927 [main] DashboardTests - Verify logo
+[INFO ] 2025-02-06 15:31:19.991 [main] DashboardTests - Logo is displayed in the page
+[INFO ] 2025-02-06 15:31:30.499 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:31:48.354 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:31:59.543 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:32:09.466 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:32:20.792 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:32:31.775 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:32:40.718 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:32:50.342 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:33:01.452 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:33:14.085 [main] DashboardTests - Verify the next month button
+[INFO ] 2025-02-06 15:33:14.221 [main] DashboardTests - Clicked on next month button
+[INFO ] 2025-02-06 15:33:24.461 [main] DashboardTests - Verify the previous month button
+[INFO ] 2025-02-06 15:33:24.600 [main] DashboardTests - Clicked on previous month button
+[INFO ] 2025-02-06 15:33:37.001 [main] DashboardTests - Verify the next year button
+[INFO ] 2025-02-06 15:33:37.116 [main] DashboardTests - Clicked on next year button
+[INFO ] 2025-02-06 15:33:47.367 [main] DashboardTests - Verify the previous year button
+[INFO ] 2025-02-06 15:33:47.467 [main] DashboardTests - Clicked on previous year button
+[INFO ] 2025-02-06 15:33:57.067 [main] DashboardTests - Verify selecting a date from the calendar
+[INFO ] 2025-02-06 15:33:57.301 [main] DashboardTests - date is selected
+[INFO ] 2025-02-06 15:34:06.665 [main] DashboardTests - Verify logout functionality
+[INFO ] 2025-02-06 15:34:06.665 [main] DashboardTests - logout method initialized
+[INFO ] 2025-02-06 15:34:06.841 [main] DashboardTests - logged out successfully
+[INFO ] 2025-02-06 15:34:16.619 [main] DashboardTests - Verify footer sticky
+[ERROR] 2025-02-06 15:34:28.999 [main] ProjectTests - An error occured while loading page
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at testcases.ProjectTests.AECP_ProjectManager_Project_TC001(ProjectTests.java:22) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-02-06 15:34:39.139 [main] ProjectTests - Verifying page title
+[INFO ] 2025-02-06 15:34:48.618 [main] ProjectTests - Verify logo
+[INFO ] 2025-02-06 15:34:59.735 [main] ProjectTests - Verify Footer Links are Working Correctly
+[INFO ] 2025-02-06 15:35:09.547 [main] ProjectTests - Verify Footer is sticky
+[ERROR] 2025-02-06 15:35:09.547 [main] ProjectTests - An error occured while verifying footer stickyness
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at testcases.ProjectTests.AECP_ProjectManager_Project_TC006(ProjectTests.java:92) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-02-06 15:35:20.941 [main] ProjectTests - Hovering over message icon
+[ERROR] 2025-02-06 15:35:20.941 [main] ProjectTests - An error occured while checking tooltip for message icon
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at testcases.ProjectTests.AECP_ProjectManager_Project_TC009(ProjectTests.java:109) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-02-06 15:35:30.600 [main] ProjectTests - Verify search field displays valid result 
+[ERROR] 2025-02-06 15:35:30.600 [main] ProjectTests - An error occured while checking searchfield functionality for valid results
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.27.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.27.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy29.click(Unknown Source) ~[?:?]
+	at testcases.ProjectTests.AECP_ProjectManager_Project_TC015(ProjectTests.java:126) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.10.2.jar:7.10.2]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.10.2.jar:7.10.2]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:739) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestRunner.run(TestRunner.java:614) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.10.2.jar:7.10.2]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.10.2.jar:7.10.2]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.10.2.jar:7.10.2]
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293) [testng-remote.jar:?]
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91) [testng-remote.jar:?]
+[INFO ] 2025-02-06 15:35:53.500 [main] TaskTests - Verifying page title
+[INFO ] 2025-02-06 15:47:40.479 [main] LoginTests - Fetched the actual title: AECP
+[INFO ] 2025-02-06 15:47:40.480 [main] LoginTests - actual title matches with expected title
+[INFO ] 2025-02-06 15:47:46.371 [main] LoginTests - Get the actual page header
+[INFO ] 2025-02-06 15:47:46.371 [main] LoginTests - Actual header matches with actual header
+[INFO ] 2025-02-06 15:47:55.733 [main] LoginTests - Login happened successfully
+[INFO ] 2025-02-06 15:47:55.741 [main] LoginTests - current url captured in a variable
+[INFO ] 2025-02-06 15:47:55.741 [main] LoginTests - current url matches with the expected url - 'https://aecp.aecearth.io/project-admin/project-management/dashboard'
+[INFO ] 2025-02-06 15:48:06.282 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:48:06.302 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:48:15.841 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:48:15.851 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:48:25.561 [main] LoginTests - Entered invalid login credentials
+[INFO ] 2025-02-06 15:48:25.575 [main] LoginTests - URL does not changed login not happened with invalid credentials
+[INFO ] 2025-02-06 15:48:42.244 [main] DashboardTests - Validating page load
+[INFO ] 2025-02-06 15:48:42.260 [main] DashboardTests - Page loaded successfully with all content
+[INFO ] 2025-02-06 15:48:51.943 [main] DashboardTests - Fetched the actual title: AECP
+[INFO ] 2025-02-06 15:48:51.943 [main] DashboardTests - actual title matches with expected title
+[INFO ] 2025-02-06 15:49:01.514 [main] DashboardTests - Verify logo
+[INFO ] 2025-02-06 15:49:01.562 [main] DashboardTests - Logo is displayed in the page
+[INFO ] 2025-02-06 15:49:11.153 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:49:21.086 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:49:38.315 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:49:54.766 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:04.771 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:14.381 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:24.037 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:39.610 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:49.998 [main] DashboardTests - Verify navigation links are working fine
+[INFO ] 2025-02-06 15:50:59.854 [main] DashboardTests - Verify the next month button
+[INFO ] 2025-02-06 15:51:00.005 [main] DashboardTests - Clicked on next month button
+[INFO ] 2025-02-06 15:51:09.536 [main] DashboardTests - Verify the previous month button
+[INFO ] 2025-02-06 15:51:09.665 [main] DashboardTests - Clicked on previous month button
+[INFO ] 2025-02-06 15:51:19.335 [main] DashboardTests - Verify the next year button
+[INFO ] 2025-02-06 15:51:19.486 [main] DashboardTests - Clicked on next year button
+[INFO ] 2025-02-06 15:51:36.537 [main] DashboardTests - Verify the previous year button
+[INFO ] 2025-02-06 15:51:36.661 [main] DashboardTests - Clicked on previous year button
+[INFO ] 2025-02-06 15:51:51.919 [main] DashboardTests - Verify selecting a date from the calendar
+[INFO ] 2025-02-06 15:51:52.090 [main] DashboardTests - date is selected
+[INFO ] 2025-02-06 15:52:07.651 [main] DashboardTests - Verify logout functionality
+[INFO ] 2025-02-06 15:52:07.651 [main] DashboardTests - logout method initialized
+[INFO ] 2025-02-06 15:52:07.822 [main] DashboardTests - logged out successfully
+[INFO ] 2025-02-06 15:52:17.854 [main] DashboardTests - Verify footer sticky
+[INFO ] 2025-02-06 15:52:37.012 [main] ProjectTests - Verifying page title
+[INFO ] 2025-02-06 15:52:46.339 [main] ProjectTests - Verify logo
+[INFO ] 2025-02-06 15:52:56.047 [main] ProjectTests - Verify Footer Links are Working Correctly
+[INFO ] 2025-02-06 15:53:08.703 [main] ProjectTests - Verify Footer is sticky
+[INFO ] 2025-02-06 15:53:18.490 [main] ProjectTests - Hovering over message icon
+[INFO ] 2025-02-06 15:53:29.999 [main] ProjectTests - Verify search field displays valid result 
+[INFO ] 2025-02-06 15:53:50.349 [main] TaskTests - Verifying page title
+[INFO ] 2025-02-06 16:06:06.977 [main] DashboardTests - Validating page load

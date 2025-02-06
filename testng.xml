@@ -10,6 +10,8 @@
       <class name="testcases.DashboardTests"/>
       <class name="testcases.ProjectTests"/>
       <class name="testcases.TaskTests"/>
+      <class name="testcases.MaterialTests"/>
+      <class name="testcases.EngineerTests"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

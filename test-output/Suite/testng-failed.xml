@@ -11,19 +11,10 @@
           <include name="AECP_ProjectManager_Task_TC035"/>
           <include name="tearDown"/>
           <include name="teardown"/>
-          <include name="setUp"/>
           <include name="setup"/>
+          <include name="setUp"/>
         </methods>
       </class> <!-- testcases.TaskTests -->
-      <class name="testcases.LoginTests">
-        <methods>
-          <include name="tearDown"/>
-          <include name="teardown"/>
-          <include name="setUp"/>
-          <include name="setup"/>
-          <include name="AECP_ProjectManager_Login_TC003"/>
-        </methods>
-      </class> <!-- testcases.LoginTests -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
